@@ -1,0 +1,19 @@
+class Laptop
+{
+String laptopname;
+int laptopcost;
+String laptopbrand;
+Laptop(String laptopname,int laptopcost,String laptopbrand)
+{
+this.laptopname=laptopname;
+this.laptopcost=laptopcost;
+this.laptopbrand=laptopbrand;
+}
+public static void main(String[] args)
+{
+Laptop l1=new Laptop("Dell",300000,"hp");
+System.out.println(l1.laptopname);
+System.out.println(l1.laptopcost);
+System.out.println(l1.laptopbrand);
+}
+}

@@ -1,0 +1,19 @@
+class fooboo 
+{
+	public static void main(String[] args) 
+	{
+		int num=15;
+		if(num%3==0 && num%5==0)
+		{
+		System.out.println("foo boo");
+	}else if(num%3==0){
+		System.out.println("foo foo");
+
+	}else if(num%5==0){
+		System.out.println("boo boo");
+	}else{
+		System.out.println("invalid number");
+	}
+}
+
+}

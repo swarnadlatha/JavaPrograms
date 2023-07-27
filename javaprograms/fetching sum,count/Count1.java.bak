@@ -1,0 +1,21 @@
+class Count1 
+{
+	static void counting()
+		int count=0;
+	    int num=241432;
+		while(num!=0)
+	     {
+        int rem=num%10;
+		if(rem==2)
+			 {
+			count++;
+			 }
+			 num=num/10;
+		 }
+       System.out.println(count++);
+}
+	public static void main(String[] args) 
+	{
+		counting();
+	}
+}

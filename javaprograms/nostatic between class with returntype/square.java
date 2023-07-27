@@ -1,0 +1,17 @@
+class area
+{
+void square()
+{
+int a=10;
+int squarearea=a*a;
+System.out.println("the square area is" +squarearea);
+}
+}
+class square
+{
+public static void main(String[] args)
+{
+area a1=new area();
+      a1.square();
+}
+}

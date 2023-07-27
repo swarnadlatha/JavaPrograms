@@ -1,0 +1,20 @@
+class Laptop
+{
+String laptopname;
+double laptopcost;
+String laptopbrand ;
+Laptop(String a,double b,int c)
+{
+laptopname=a;
+laptopcost=b;
+laptopbrand=c;
+}
+public static void main(String[] args)
+{
+Laptop l1=new Laptop("DELL",1000000.5,"hp");
+System.out.println("the laptop name is"  +l1.laptopname);
+System.out.println("the laptop cost is" +l1.laptopcost);
+System.out.println("the laptop brand is"+l1.laptopbrand);
+}
+}
+

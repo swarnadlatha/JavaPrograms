@@ -1,0 +1,13 @@
+class trapezoid1
+{
+void area(int a,int b,int h)
+{
+double trapezoidarea=0.5*a+b*h;
+System.out.println("the trapezoid area is" +trapezoidarea)
+}
+public static void main(String[] args)
+{
+trapezoid1 t1=new trapezoid1();
+           t1.area(6,7,9);
+}
+}

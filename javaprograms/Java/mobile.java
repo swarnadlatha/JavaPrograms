@@ -1,0 +1,14 @@
+class mobile
+{
+
+	public static void main(String[] args) 
+	{
+		short mobilecost=25000;
+		String mobilecolour="skyblue";
+		String mobilemodelname="VIVO";
+
+		System.out.println("the mobile cost is:"+mobilecost);
+		System.out.println("the mobile colour is:"+mobilecolour);
+		System.out.println("the mobile model name is:" +mobilemodelname);
+	}
+}

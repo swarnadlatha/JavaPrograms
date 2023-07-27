@@ -1,0 +1,22 @@
+class Instagram-v1 
+{
+	void post()
+	{
+    System.out.println("post stories");
+	}
+}
+class Instagram-v2 extends Instagram-v1 
+{
+	void post()
+	{
+    System.out.println("post stories & Reels");
+	}
+}
+class Instagram
+{
+public static void main(String[] args) 
+	{
+	Instagram-v2 i1=new Instagram-v2();
+	            i1.post();
+	}
+}

@@ -1,0 +1,18 @@
+class parallogram
+{
+	static int area()
+	{
+		int b=7;
+		int h=5;
+		int parallogram=b*h;
+		return parallogram;
+	}
+}
+class parallogramwithreturntype
+{
+ public static void main(String[] args) 
+	{
+		int parallogramarea=parallogram.area();
+		System.out.println("the parallogram area is" +parallogramarea);
+	}
+}

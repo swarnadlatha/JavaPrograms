@@ -1,0 +1,12 @@
+class car
+{
+public static void main(String[] args)
+{
+String carbrand="maruthi";
+int price=500000;
+char grade='A';
+System.Out.Println("car brand is" +carbrand);
+System.Out.Println("price is" +price);
+System.Out.Println("grade is" +grade);
+}
+}

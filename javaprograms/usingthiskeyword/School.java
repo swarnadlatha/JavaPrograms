@@ -1,0 +1,19 @@
+class School
+{
+int schoolstrength;
+String schoolname;
+char schoolgrade;
+School(int schoolstrength,String schoolname,char schoolgrade)
+{
+this.schoolstrength=schoolstrength;
+this.schoolname=schoolname;
+this.schoolgrade=schoolgrade;
+}
+public static void main(String[] args)
+{
+School s1=new School(20000,"qspider",'A');
+System.out.println(s1.schoolstrength);
+System.out.println(s1.schoolname);
+System.out.println(s1.schoolgrade);
+}
+}

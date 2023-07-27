@@ -1,0 +1,15 @@
+class sample7 
+{
+	public static void main(String[] args) 
+	{
+		if(false)
+			{
+			System.out.println("ho");
+			}
+         else
+		{
+			int x=10;
+			System.out.println("x" +x);
+		}
+	}
+}

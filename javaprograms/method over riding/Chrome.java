@@ -1,0 +1,23 @@
+class Chromev1 
+{
+	void search()
+	{
+   System.out.println("search via text");
+	}
+}
+class Chromev2 extends Chromev1
+{
+	void search()
+	{
+    System.out.println("search via text & voice message");
+
+	}
+}
+	class Chrome
+	{
+ public static void main(String[] args) 
+	{
+	Chromev2 c1=new Chromev2();
+	  c1.search();
+	}
+}

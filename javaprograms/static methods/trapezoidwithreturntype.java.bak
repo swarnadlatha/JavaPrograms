@@ -1,0 +1,19 @@
+class trapezoid
+{
+	static double area()
+	{
+	    int a=4;
+		int b=7;
+		int h=8;
+		double  trapezoid=0.5*a+b*h;
+		return  trapezoid;
+	}
+}
+class  trapezoidwithreturntype
+{
+ public static void main(String[] args) 
+	{
+		double  trapezoidarea=reactangle.area();
+		System.out.println("the  trapezoid area is" + trapezoidarea);
+	}
+}

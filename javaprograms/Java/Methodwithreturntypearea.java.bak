@@ -1,0 +1,16 @@
+class Methodwithreturntypeareas 
+{
+	static double triangle()
+	{
+		int b=3;
+		int h=2;
+		double triangle=0.5*b*h;
+		return triangle;
+	}
+	public static void main(String[] args)
+	{
+		double trianglearea= triangle();
+		System.out.println("the triangle area is" +trianglearea);
+	}
+}
+	

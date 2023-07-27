@@ -1,0 +1,22 @@
+class Phonepe-v1 
+{
+	void pay()
+	{
+    System.out.println("pay via number");
+	}
+}
+class  Phonepe-v2 extends Phonepe-v1
+{
+	void pay()
+	{
+    System.out.println("pay via number,contact & QR code");
+	}
+}
+class Phonepe
+{
+public static void main(String[] args) 
+	 {
+		Phonepe-v2 p2=new Phonepe-v2();
+		   p2 pay();
+	}
+}

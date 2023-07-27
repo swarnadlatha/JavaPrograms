@@ -1,0 +1,17 @@
+class square 
+{
+	static int area()
+	{
+		int a=7;
+		int square=a*a;
+		return square;
+	}
+}
+class squarewithreturntype
+{
+ public static void main(String[] args) 
+	{
+		int squarearea=square.area();
+		System.out.println("the square area is" +squarearea);
+	}
+}

@@ -1,0 +1,14 @@
+class gvlaptop
+{
+static String laptopname="dell";
+static double laptopcost=5000000;
+static String laptopbrand="hp";
+public static void main(String[] args)
+{
+system.out.println("the laptopname is:" +laptopname);
+system.out.println("the laptopcost is:" +laptopcost);
+system.out.println("the laptopbrand is:" +laptopbrand);
+}
+}
+
+

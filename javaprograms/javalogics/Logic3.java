@@ -1,0 +1,20 @@
+//sum of given number 30-50 without parameter & without return type with in the class(method)
+class Logic3 
+{
+static void given()
+	{
+	int sum=0;
+	for(int i=30;i<=50;i++)
+		{
+		sum=sum+i;
+		}
+	
+	System.out.println("the given number is :" +sum);
+	}
+
+	public static void main(String[] args) 
+	{
+		given();
+	}
+		
+}

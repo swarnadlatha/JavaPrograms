@@ -1,0 +1,19 @@
+class triangle 
+{
+	static double area()
+	{
+		int b=2;
+		int h=3;
+		double trianglearea=0.5*b*h;
+		return trianglearea;
+	}
+}
+class trianglewithreturntype
+{
+
+	public static void main(String[] args) 
+	{
+		double trianglearea=triangle.area();
+		System.out.println("the triangle area is" +trianglearea);
+	}
+}

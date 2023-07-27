@@ -1,0 +1,45 @@
+class Methodwithreturntypearea2 
+{
+	static double trapezoid()
+	{
+		int a=2;
+		int b=3;
+		int h=5;
+		double trapezoid=0.5*(a+b)*h;
+		return trapezoid;
+	}
+	static double circle()
+	{
+		final double pi=3.142;
+		int r=2;
+		double circle=pi*r*r;
+		return circle;
+	}
+	static double ellipse()
+	{
+		final double pi=3.142;
+		int a=6;
+	    int b=4;
+		double ellipse=pi*a*b;
+		return ellipse;
+	}
+	static double sector()
+	{
+		
+		int r=3;
+		int s=4;
+		double sector=0.5*r*s;
+		return sector;
+	}
+  public static void main(String[] args)
+	{
+		double trapezoidarea= trapezoid();
+		double circlearea=circle();
+		double ellipsearea=ellipse();
+		double sectorarea=sector();
+		System.out.println("the trapezoid area is:" +trapezoidarea);
+		System.out.println("the circle area is:"   +circlearea);
+		System.out.println("the ellipse area is:"   +ellipsearea);
+		System.out.println("the sector area is:"   +sectorarea);
+	}
+}

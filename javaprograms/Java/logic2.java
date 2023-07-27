@@ -1,0 +1,11 @@
+class logic2 
+{
+	public static void main(String[] args) 
+	{
+		int b=90;
+		int a=b+10;
+		int c=a+b;
+System.out.println("c:" +c);
+	}
+
+}

@@ -1,0 +1,21 @@
+class Tv
+{
+int tvcost;
+String tvbrand;
+String tvcolor;
+Tv(int a,String b,String c)
+{
+tvcost=a;
+tvbrand=b;
+tvcolor=c;
+}
+public static void main(String[] args)
+{
+Tv t1=new Tv(50000,"android","black");
+System.out.println("the tv cost is" +t1.tvcost);
+System.out.println("the tv brand is" +t1.tvbrand);
+System.out.println("the tv color is" +t1.tvcolor);
+}
+}
+
+
